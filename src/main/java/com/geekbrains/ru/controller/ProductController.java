@@ -13,7 +13,6 @@ import java.util.List;
 @Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE,
         proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ProductController {
-
     private final ProductService productService;
 
     public ProductController(ProductService productService) {
