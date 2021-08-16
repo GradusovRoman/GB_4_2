@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
+
 @Configuration
 @ComponentScan({"com.geekbrains.ru.controller","com.geekbrains.ru.repository","com.geekbrains.ru.service",})
 public class AppConf {

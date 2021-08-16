@@ -18,7 +18,6 @@ import java.util.Optional;
 public class Main {
     public static void main(String[] args) {
         try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConf.class)) {
-
             // Не стал писать логику консольного варианта приложения, прост прошелся по операциям.
 
             ProductController productController = context.getBean("productController", ProductController.class);
